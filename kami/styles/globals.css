@@ -1,0 +1,53 @@
+:root {
+  background-color: hsl(218, 28%, 15%);
+  font-size: 14px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+.button{
+  max-width: 300px;
+}
+.bg-img{
+background-image: url(/public/bg-curvy-mobile.svg);
+background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+}
+.second{
+  background-color:hsl(218, 28%, 13%);
+}
+
+
+.bgq-img{
+  background-image: url(/bg-quotes.png);
+background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment:local;
+  background-size:  cover;
+}
+.class{
+  background-color: hsl(217, 28%, 15%);
+  max-width: 800px;
+}
+.sign-up{
+border-radius: 33px;
+width: 400px;
+
+}
+.get{
+max-width: 400px;
+}
+.footer{
+  background-color:  hsl(216 , 53%, 9%);
+}
