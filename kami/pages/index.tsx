@@ -56,7 +56,7 @@ export default function Home() {
 </div>
 <br></br>
 <br></br>
-
+<footer className='footer'></footer>
   <section className='second'>
     <div className='container'>
 
@@ -207,7 +207,6 @@ export default function Home() {
 <p className='has-text-white'>questions, our support team would be happy to help you</p>
 </div>
 <br></br>
-<footer className='footer'>
 <form className='level pt-2 pb-5'>
 <div className='level-item'>
 <input type="email" placeholder='email@example.com' className="sign-up py-5 pl-6 mr-2"></input>
