@@ -8,34 +8,45 @@
   padding: 0;
   margin: 0;
 }
-
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
+header{
+  font-family: 'Raleway' , sans-serif;
+  font-weight: 400;
 }
-.button{
+main{
+  font-family: 'Open Sans', sans-serif;
+  }
+button{
   max-width: 300px;
+background-color: cyan;
 }
 .bg-img{
-background-image: url(/public/bg-curvy-mobile.svg);
+background-image: url(/bg-curvy-mobile.svg);
 background-position: center center;
   background-repeat:  no-repeat;
-  background-attachment: fixed;
   background-size:  cover;
+  
+}
+.bgd-img{
+  background-image: url(/bg-curvy-desktop.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+.bgm-img{
+  background-image: url(/bg-curvy-mobile.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.buts{
+  max-width: 300px;
+  background-color: cyan;
 }
 .second{
   background-color:hsl(218, 28%, 13%);
 }
 
-
-.bgq-img{
-  background-image: url(/bg-quotes.png);
-background-position: center center;
-  background-repeat:  no-repeat;
-  background-attachment:local;
-  background-size:  cover;
-}
 .class{
   background-color: hsl(217, 28%, 15%);
   max-width: 800px;
@@ -43,11 +54,37 @@ background-position: center center;
 .sign-up{
 border-radius: 33px;
 width: 400px;
-
 }
 .get{
 max-width: 400px;
 }
 .footer{
   background-color:  hsl(216 , 53%, 9%);
+}
+.cards{
+position: relative;bottom: 75px;
+}
+article{
+  position: relative;bottom: 22rem;
+}
+.lo{
+  position: relative;top: 8px;
+}
+.lo-1{
+  position: relative;top: 8px; right: 15px
+}
+.arw{
+  position: relative;top: 3px;
+}
+.link{
+  border-bottom: 1px solid cyan;
+  color: cyan;
+  padding-bottom: 3px;
+  
+}
+.part-1{
+  position: relative;bottom: 40px;
+}
+.txt-1{
+font-weight: 700;
 }
