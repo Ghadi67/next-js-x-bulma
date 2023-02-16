@@ -1,0 +1,39 @@
+.boxs{
+    padding-top: 20px;
+    border-radius: 0px;
+    margin-top: 90px;
+    background-color: hsl(257, 27%, 26%);
+    font-weight: 700;
+    background-image: url(/assets/bg-boost-desktop.svg);
+    background-size: cover;
+    padding-bottom: 120px;
+    font-size: 18px;
+}
+.button{
+    border: 1px solid hsl(180, 66%, 49%);
+    width: 190px;
+    background-color: hsl(180, 66%, 49%);
+}
+.cont{
+    font-size: 18px;
+    position: relative;
+    bottom: 12px;
+    background-color:hsl(260, 8%, 14%);
+    padding-bottom: 60px;
+}
+.list{
+    list-style: none;
+    color: hsl(0, 0%, 75%);
+}
+.log{
+    font-weight: 500;
+}
+.display{
+    display: inline-flex;
+}
+a:hover{
+    color: hsl(180, 66%, 49%);
+}
+a{
+    color:  hsl(0, 0%, 75%);
+}

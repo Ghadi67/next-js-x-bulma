@@ -1,0 +1,44 @@
+<div class="boxs has-text-centered">
+    <div class="text">
+        <p class="has-text-white is-size-2 mt-5">Boost your links today</p>
+    </div>
+    <div class="button mt-5 has-text-white is-rounded is-medium">
+        Get Started
+    </div>
+</div>
+<div class="cont">
+    <div class="columns">
+        <div class="column ">
+            <p class=" has-text-centered log has-text-white is-size-3 mt-5">Shortly</p>
+        </div>
+        <div class="column has-text-centered">
+            <p class="has-text-white is-size-5 mb-3 mt-5 pt-3">Features</p>
+            <li class="list mt-1" *ngFor="let link of links">
+                <a>{{link.features}}</a>
+            </li>
+        </div>
+        <div class="column has-text-centered">
+            <p class="has-text-white is-size-5 mb-3 mt-5 pt-3">Resources</p>
+            <li class="list mt-1" *ngFor="let link of links">
+                <a>{{link.resources}}</a>
+            </li>
+        </div>
+        <div class="column has-text-centered">
+            <p class="has-text-white is-size-5 mb-3 mt-5 pt-3">Company</p>
+            <li class="list mt-1" *ngFor="let link of links">
+                <a>{{link.company}}</a>
+            </li>
+            <li class="list mt-1">
+                <a>Contact</a>
+            </li>
+        </div>
+        <div class="column has-text-centered">
+            <li class="list display mt-5 pt-5 mr-5" *ngFor="let link of links">
+                <a><img src="{{link.url}}"/></a>
+            </li>
+            <li class="list display">
+                <a> <img src="assets/icon-instagram.svg"></a>
+            </li>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,36 @@
+.text{
+    color: black;
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+.img{
+    position: relative;
+    top: 40px;
+}
+.txt{
+  position: relative;
+  bottom: 2.6rem;
+}
+.small-txt{
+    position: relative;
+    bottom: 3.5rem;
+    color: gray;
+    font-weight: 500;
+}
+.small-text{
+    position: relative;
+    bottom: 6.5rem;
+    color: gray;
+    font-weight: 500;
+}
+.button{
+    width: 180px;
+    position: relative;
+    bottom: 4rem;
+    background-color: hsl(180, 66%, 49%);
+    border: 1px solid  hsl(180, 66%, 49%);
+}
+.move{
+    position: relative;
+    left: 30px;
+}

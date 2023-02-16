@@ -1,0 +1,23 @@
+:root{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+ color: hsl(0, 0%, 75%);
+ font-weight: 700;
+}
+a:hover{
+    color: black;
+}
+.end{
+    position: relative;
+    right: 60px;
+}
+.brand{
+    height: 32px;
+}
+.button{
+    background-color:  hsl(180, 66%, 49%);
+    color: white;
+    border: 1px solid  hsl(180, 66%, 49%);
+}

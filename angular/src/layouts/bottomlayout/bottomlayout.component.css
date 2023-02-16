@@ -1,0 +1,25 @@
+.box-img{
+    border: solid ;
+    padding: 25px;
+    border-radius:50% ;
+    background-color:  hsl(257, 27%, 26%);
+    overflow:visible;
+    position: relative;
+    bottom: 60px;
+}
+.txt{
+    position: relative;
+    bottom: 35px;
+}
+.box{
+width: 357px;
+font-size: 18px;
+}
+.title{
+    font-weight: 700;
+}
+.sub{
+    font-size: 18px;
+    color: gray;
+    font-weight: 500;
+}
